@@ -7,7 +7,6 @@ session = vk.Session(access_token=access_token)
 api = vk.API(session, v='5.95')
 
 kochka = False
-kachalka_kalash()
 
 def kachalka_kalash():
     while True:
@@ -26,6 +25,8 @@ def kachalka_kalash():
             time.sleep(0.5)
             api.messages.send(random_id=random.randint(1,100000),peer_id=2000000327, message="КАЧАТЬСЯ!!!!!")
         print(response['messages'])
+        
+kachalka_kalash()
        
 try:
     kachalka_kalash()
