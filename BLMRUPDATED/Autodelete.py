@@ -12,7 +12,7 @@ def initiliziation():
     print("Login...")
     session_api = vk_session.get_api()
     print("Initializing variables...")
-    #Пример. Замените на нужное вам значение
+    #Пример. Замените на нужный вам id
     banned_user_1 = 624115175
     #Если нужны ещё пользователи - копируете строчку выше и заменяете на нужные вам параметры
     print("Initializing session...")
